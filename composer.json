@@ -1,0 +1,22 @@
+{
+    "name": "imamuseum/harvester-transaction",
+    "description": "Transaction Export API for Havester.",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "IMA Lab",
+            "email": "imalab@imamuseum.org",
+            "homepage": "http://lab.imamuseum.org"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Imamuseum\\HarvesterTransaction\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.2.*",
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}
